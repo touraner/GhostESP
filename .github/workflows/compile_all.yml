@@ -36,7 +36,7 @@ jobs:
     strategy:
       matrix:
         target:
-          - { name: "GhostLink P1 Core",     idf_target: "esp32s3", sdkconfig_file: "configs/sdkconfig.ghostlink_p1_core",           zip_name: "GhostLink_P1_Core.zip" }
+          - { name: "GhostLink P1 Core",     idf_target: "esp32s3", sdkconfig_file: "configs/sdkconfig.default.esp32s3",           zip_name: "GhostLink_esp32s3.zip" }
 
     steps:
       - uses: actions/checkout@v4
